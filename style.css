@@ -1,0 +1,52 @@
+
+
+.header{
+    background-color:#FFDAB9;
+    justify-content:space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.a1{
+    border-style: solid;
+    border-width:10px;
+    
+    border-color: #CD5C5C;
+}
+
+body{
+        /*background-image: url("ogback.png");*/
+        margin: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #AFEEEE;
+        padding: 20px;
+}
+
+a:link{
+    color:greenyellow;
+}
+
+a:visited{
+    color:brown;
+}
+
+.a1:hover{
+    transform: scale(1.2);
+}
+
+.a1 h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    opacity: 0;
+}
+
+.a1:hover h4{
+    opacity: 1;
+}
